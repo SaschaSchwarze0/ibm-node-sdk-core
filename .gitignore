@@ -12,7 +12,6 @@ doc/
 lib/*.js
 auth/**/*.js
 iam-token-manager/*.js
-index.js
 !test/**/index.js
 .nyc_output
 **/*.d.ts
@@ -23,7 +22,7 @@ coverage.lcov
 /.settings/
 /.project
 .pre-commit-config.yaml
-dist/
+#dist/
 temp/
 build/
 es/tsdoc-metadata.json
